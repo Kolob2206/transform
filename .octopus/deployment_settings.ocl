@@ -4,6 +4,6 @@ connectivity_policy {
 
 versioning_strategy {
     donor_package {
-        step = "deploy-a-package"
+        step = "Deploy a Package PR"
     }
 }

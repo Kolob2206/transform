@@ -1,5 +1,5 @@
 step "deploy-a-package" {
-    name = "Deploy a Package"
+    name = "Deploy a Package PR"
     properties = {
         Octopus.Action.TargetRoles = "poll"
     }
@@ -17,6 +17,7 @@ step "deploy-a-package" {
             Octopus.Action.Package.DownloadOnTentacle = "False"
             Octopus.Action.Package.FeedId = "octopus-server-built-in"
             Octopus.Action.Package.PackageId = "api-package"
+            Octopus.Action.RunOnServer = "false"
         }
         worker_pool_variable = ""
 
