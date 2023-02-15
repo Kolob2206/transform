@@ -1,5 +1,5 @@
 step "deploy-a-package" {
-    name = "Deploy a Package"
+    name = "Deploy a Package Main Branch"
     properties = {
         Octopus.Action.TargetRoles = "poll"
     }
